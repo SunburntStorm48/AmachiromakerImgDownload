@@ -1,4 +1,3 @@
-#path of the files can be found in generateMakefile.js
 import urllib.request
 import time
 import os
