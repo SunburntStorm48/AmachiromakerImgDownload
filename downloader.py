@@ -39,6 +39,9 @@ for i in imglist:
     m += 1
     k = int((m / length) * 100)
 
+    kp = k // 2
     print('\r', end='')
-    print('Download progress: {}% '.format(k), '▋' * (k // 2), m,'/',length, end='')
+    print('Download progress: {}% |'.format(k), '█' * kp, '--' * (50 - kp),'|', m,'/',length, end='')
     sys.stdout.flush()
+
+print ('[Downloaded', length, 'files]')
