@@ -1,5 +1,5 @@
 # AmachiromakerImgDownload
-A python script that downloads the image files needed for Amachiromaker from charlie0129.
+A python script that downloads the image files needed for Amachiromaker from charlie0129. Idea from modded version by Gabiworld.
 Surprisingly, Picrew have not removed the images from their CDN.
 1. Copy the list of files from the lists. Run the script.
 2. Paste the files into the directory of Amachiromaker.
